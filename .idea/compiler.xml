@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-05-mybatis" />
+        <module name="springboot-07-shiro" />
+        <module name="springboot-06-security" />
+        <module name="springboot-03-web" />
+        <module name="springboot-01-helloword" />
+        <module name="last-curdApi" />
+        <module name="springboot-04-data" />
+        <module name="swagger-demo" />
+        <module name="springboot-03-web-text" />
+        <module name="springboot-09-emailTest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="last-curdApi" target="1.8" />
+      <module name="springboot-01-helloword" target="1.8" />
+      <module name="springboot-03-web" target="1.8" />
+      <module name="springboot-03-web-text" target="1.8" />
+      <module name="springboot-04-data" target="1.8" />
+      <module name="springboot-05-mybatis" target="1.8" />
+      <module name="springboot-06-security" target="1.8" />
+      <module name="springboot-07-shiro" target="1.8" />
+      <module name="springboot-09-emailTest" target="1.8" />
+      <module name="springboot-last-curdApi" target="11" />
+      <module name="swagger-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="last-curdApi" options="-parameters" />
+      <module name="springboot-01-helloword" options="-parameters" />
+      <module name="springboot-03-web" options="-parameters" />
+      <module name="springboot-03-web-text" options="-parameters" />
+      <module name="springboot-04-data" options="-parameters" />
+      <module name="springboot-05-mybatis" options="-parameters" />
+      <module name="springboot-06-security" options="-parameters" />
+      <module name="springboot-07-shiro" options="-parameters" />
+      <module name="springboot-09-emailTest" options="-parameters" />
+      <module name="springboot-last-curdApi" options="-parameters" />
+      <module name="swagger-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
